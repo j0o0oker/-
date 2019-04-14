@@ -1,0 +1,239 @@
+.main {
+	width: 100%;
+}
+.main .slidenav {
+	position: absolute;
+	width: 290px;
+	height: 790px;
+	background-color: #fafcfd;
+}
+.main .slidenav .icon {
+	width: 87px;
+	height: 87px;
+	margin: 55px 103px 25px 105px;
+	border-radius: 50%;
+	background: no-repeat url(../images/detail/id.jpg);
+}
+.main .slidenav .id, .main .slidenav .description {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
+.main .slidenav .imgs {
+	width: 222px;
+	margin: 10px 0 0 58px;
+	
+}
+.main .slidenav .imgs .img {
+	float: left;
+	width: 46px;
+	height: 46px;
+	margin-left: 10px;
+	background: no-repeat url(../images/detail/wollet.jpg);
+	border-radius: 50%;
+}
+.main .slidenav .selects {
+	display: block;
+	margin-left: 53px;
+	margin-top: 50px;
+	
+}
+.main .slidenav .selects .select {
+	display: block;
+	margin-top: 67px;
+	font-size: 20px;
+	
+}
+.main .slidenav .selects .select .text{
+	margin-left: 43px;
+	cursor: pointer;
+ 
+
+}
+.main .slidenav .selects .select .ico{
+	font-size: 20px;
+}
+.main .content {
+	position: absolute;
+	left: 290px;
+	width: 1562px;
+	background-color: #f3f6f8;
+}
+.main .content .topnav {
+	display: inline-block;
+	width: 95%;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+	background-color: #ffffff;
+
+}
+.main .content .topnav li {
+	float: left;
+	height: 82px;
+	margin-left: 235px;
+	line-height: 82px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+.main .content .recommend .title {
+	display: block;
+	margin: 40px 0 40px 30px;
+	font-size: 22px;
+	cursor: pointer;
+	
+}
+.main .content .recommend .card {
+	float: left;
+	width: 490px;
+	height: 268px;
+	margin-left: 30px;
+	background: -moz-linear-gradient(left top, #d58cfe, #7d4eff);
+}
+.main .content .recommend .card .bg {
+	width: 187px;
+	height: 256px;
+	background:no-repeat url(../images/detail/card.jpg);
+	
+}
+.main .content .recommend .card .count, .main .content .recommend .card .star {
+	display: inline-block;
+	width: 178px;
+	height: 35px;
+	margin-top: 25px;
+	margin-left: 20px;
+	border-radius: 17px;
+	font-size: 20px;
+	line-height: 35px;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.main .content .recommend .card .count .icon, .main .content .recommend .card .star .icon {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #ffdc64 ;
+
+}
+.main .content .recommend .card .count .icon {
+	color: #ffffff;
+}
+.main .content .recommend .card .name {
+	display: flex;
+	margin-top: 65px;
+	margin-left: 20px;
+}
+.main .content .recommend .card .name .img {
+	
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background:no-repeat url(../images/detail/recommend.jpg);
+}
+.main .content .recommend .card .name .des {
+	
+	width: 166px;
+	height: 55px;
+	margin-left: 20px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+.main .content .recommend .card .name .des .id {
+	font-size: 27px;
+	cursor: pointer;
+
+}
+.main .content .recommend .card .name .des .text {
+	font-size: 17px;
+}
+.main .content .recommend .card .more {
+	display: block;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.main .content .hot .title {
+	display: block;
+	margin: 40px 0 40px 30px;
+	font-size: 22px;
+	cursor: pointer;
+}
+.main .content .hot .card {
+	float: left;
+	width: 355px;
+	height: 190px;
+	margin-left: 35px;
+	background-color: #ffffff;
+}
+.main .content .hot .card .name {
+	display: flex;
+}
+.main .content .hot .card .name .icon {
+	width: 75px;
+	height: 75px;
+	margin: 20px;
+	background: no-repeat url(../images/detail/hot.jpg);
+	border-radius: 50%;
+}
+.main .content .hot .card .name .des {
+	margin-top: 20px;
+}
+.main .content .hot .card .name .des .id {
+	display: block;
+	font-size: 25px;
+	margin-top: 6px;
+}
+.main .content .hot .card .name .des .text {
+	display: block;
+	font-size: 20px;
+	margin-top: 6px;
+}
+.main .content .hot .card .name .zhankai {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 85px;
+	font-size: 30px;
+}
+.main .content .hot .card .iconlists {
+	margin-top: 28px;
+	margin-left: 35px;
+}
+.main .content .hot .card .iconlists li {
+	float: left;
+	width: 38px;
+	height: 38px;
+	margin-left: -15px;
+	border-radius: 50%;
+	background-color: #000000;
+	background:no-repeat url(../images/detail/icon.jpg);
+}
+.main .content .hot .card .count {
+	float: left;
+	width: 200px;
+	height: 38px;
+	margin-left: -15px;
+}
+.main .content .hot .card .count .purpleicon {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	background-color: purple;
+	border-radius: 50%;
+}
+.main .content .hot .card .count .number {
+	display: inline-block;
+	height: 38px;
+	margin-left: 30px;
+	line-height: 38px;
+}

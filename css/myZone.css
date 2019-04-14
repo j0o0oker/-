@@ -1,0 +1,161 @@
+.main {
+	position: absolute;
+	top: 45px;
+	left: 360px;
+	width: 1200px;
+}
+
+.main .banner {
+	width: 1200px;
+	height: 403px;
+	margin-top: 20px;
+	background: url(../images/myZone/banner.jpg);
+}
+.main .navTwo {
+	width: 100%;
+	height: 115px;
+
+	background-color: #ffffff;
+}
+.main .navTwo li {
+	float: left;
+	width: 400px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 115px;
+	color: red;
+	cursor: pointer;
+}
+.main .navTwo .govement {
+	background-color: red;
+	color: #ffffff;
+}
+.main .details {
+	width: 100%;
+	height: 814px;
+	background-color: #f8f7f7;
+}
+.main .details .objectOriented .text1 {
+	margin-left: 483px;
+	font-size: 30px;
+	line-height: 112px;
+}
+.main .details .objectOriented .text2 {
+	color: #aaaaaa;
+		font-size: 24px;
+}
+.main .details .objectOriented .img {
+	display: inline-block;
+	margin-left: 52px;
+
+}
+.main .details .objectOriented .img .description {
+	position: absolute;
+	display: inline-block;
+	width: 328px;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 103px;
+	text-align: center;
+	
+}
+.main .details .box {
+	float: left;
+	width: 275px;
+	height: 333px;
+	margin-left: 21px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	
+}
+.main .details .box .icon {
+	display: block;
+	height: 119px;
+	text-align: center;
+	line-height: 119px;
+	font-size: 50px;
+	color: #aaaaaa;
+}
+.main .details .box .title {
+	display: block;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: 700;
+}
+.main .details .box .text {
+	display: inline-block;
+	height: 168px;
+	margin: 20px;
+	text-align: left;
+	line-height: 32px;
+	font-size: 18px;
+	color: #aaaaaa;
+}
+.main .details .plan {
+	height: 465px;
+	background-color: #f8f7f7;
+}
+.main .details .plan .leftBorder {
+	float:left;
+	width: 21px;
+	height: 380px;
+	background-color: red;
+}
+.main .details .plan .left {
+	float:left;
+	width: 386px;
+	height: 100%;
+	background-color: #ffffff;
+}
+.main .details .plan .middle {
+	float:left;
+	width: 386px;
+	height: 100%;
+	background-color: #ffffff;
+}
+.main .details .plan .right {
+	float:left;
+	width: 386px;
+	height: 100%;
+	background-color: #ffffff;
+}
+.main .details .plan .rightBorder {
+	float:left;
+	width: 21px;
+	height: 380px;
+	background-color: red;
+}
+.main .details .plan .title {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	line-height: 90px;
+}
+.main .details .plan .text {
+	display: inline-block;
+	width: 100%;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #aaaaaa;
+	text-align: left;
+	line-height: 30px;
+
+}
+.main .details .plan .middle .border {
+	width: 225px;
+	height: 225px;
+	margin-top: 50px;
+	margin-left: 60px;
+	border: 10px solid greenyellow;
+	border-radius: 50%;
+}
+.main .details .plan .middle .tittle {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 91px;
+	font-size: 17px;
+	font-weight: 700;
+}

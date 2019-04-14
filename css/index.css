@@ -1,0 +1,89 @@
+.background {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background: url('../images/index/background.jpg');
+	z-index: -1;
+}
+.content {
+	position: absolute;
+	top: 67px;
+	left: 157px;
+	width: 1500px;
+	height: 836px;
+	padding: 55px;
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+.content .smallBg {
+	float: left;
+	width: 762px;
+	height: 836px;
+	margin-right: 75px;
+	background: url(../images/index/background2.jpg);
+	border-radius: 25px;
+}
+.content .main {
+	float: left;
+	width: 566px;
+	height: 836px;
+}
+.content .main .id {
+	display: block;
+	font-size: 40px;
+	color: #042d9a;
+	text-align: center;
+}
+.content .main .number {
+	width: 565px;
+	height: 100px;
+	margin-top: 43px;
+	border: 4px solid #aaaaaa;
+	border-radius: 50px;
+	font-size: 30px;
+	text-indent: 40px;
+}
+.content .main .check {
+	width: 17px;
+	height: 17px;
+	color: #aaaaaa;
+	margin-top: 30px;
+}
+.content .main .text {
+	font-size: 20px;
+	color: #aaaaaa;
+}
+.content .main .textTwo {
+	font-size: 20px;
+	color: #aaaaaa;
+	margin-left: 353px;
+	cursor: pointer;
+
+}
+.content .main .login {
+	display: inline-block;
+	width: 424px;
+	height: 97px;
+	margin-top: 93px;
+	margin-left: 70px;
+	border-radius: 50px;
+	background-color: #324dc4;
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 97px;
+	cursor: pointer;
+
+}
+.content .main .three {
+	display: inline-block;
+	margin-top: 86px;
+	margin-left: 243px;
+	color: #aaaaaa;
+}
+.content .main .icon {
+	display: inline-block;
+	margin-top: 45px;
+	margin-left: 87px;
+	cursor: pointer;
+}

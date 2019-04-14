@@ -1,0 +1,85 @@
+.main .banner {
+	width: 1920;
+	height: 700px;
+}
+.main .company {
+	width: 1020px;
+	height: 555px;
+	margin-top: 220px;
+	margin-left: 460px;
+}
+.main .company .item {
+	float: left;
+	width: 320px;
+	height: 333px;
+	margin-left: 20px;
+}
+.main .company .item span{
+	display: inline-block;
+	width: 100%;
+	margin-left: 20px;
+	text-align: left;
+}
+.main .aboutme {
+	margin-top: 150px;
+}
+.main .aboutme .bigTitle {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 27px;
+	font-weight: 1000;
+
+}
+.main .aboutme .description {
+	float: left;
+	width: 500px;
+	margin-top: 180px;
+	margin-left: 460px;
+}
+.main .aboutme .description .title {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+}
+.main .aboutme .description .text {
+	display: block;
+	margin-top: 47px;
+	margin-bottom: 49px;
+	font-size: 18px;
+	color: #aaaaaa;
+
+}
+.main .aboutme .description .more {
+	width: 160px;
+	height: 50px;
+	margin-top: 115px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	color: #ffffff;
+	background-color: #4a8ad5;
+	cursor: pointer;
+}
+.main .aboutme img {
+	float: left;
+	margin-top: 180px;
+	margin-left: 159px;
+}
+
+.main .footer {
+	height: 360px;
+	margin-top: 300px;
+	background-color: #f3f3f3;
+}
+.main .footer .number {
+	display: inline-block;
+	width: 750px;
+	height: 360px;
+	margin-top: 50px;
+	margin-left: 450px;
+}
+.main .footer .number span {
+	display: inline-block;
+	margin: 34px;
+}
